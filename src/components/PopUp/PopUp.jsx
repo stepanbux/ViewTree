@@ -58,9 +58,12 @@ const PopUp = () => {
     renameItem,
   ]);
 
-  const onChangeInput = (e) => {
-    setNodeName(e.target.value);
-  };
+  const onChangeInput = useCallback(
+    (e) => {
+      setNodeName(e.target.value);
+    },
+    [setNodeName]
+  );
 
   return (
     <div className={s.popup__wrapper}>
