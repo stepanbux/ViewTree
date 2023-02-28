@@ -1,0 +1,10 @@
+.wrapper {
+  height: 300px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
